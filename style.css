@@ -1,0 +1,8 @@
+div#leftnav, div#leftnav, p#bfl, div#fll, div#appbar, div.vspii {
+  display: none !important;
+}
+
+body {
+  padding-bottom: 30px;
+}
+

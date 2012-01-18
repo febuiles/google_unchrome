@@ -1,0 +1,13 @@
+{
+  "name": "Google Unchrome",
+  "version": "1.0",
+  "description": "Remove all the useless content from the Google Search Page.",
+  "content_scripts": [
+    {
+      "matches": ["http://*.google.com/*", "http://*.google.com.co/*"],
+      "exclude_matches": ["http://*.google.com/*tbm=isch*", "http://*.google.com.co/search*tbm=isch*"],
+      "css": ["style.css"],
+      "js": ["jquery.js", "unchrome.js"]
+    }
+  ]
+}
