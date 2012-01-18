@@ -1,6 +1,6 @@
 Google Unchrome
 ====
-Gets rid of all the bullshit in the Google Search page.
+This Google Chrome extension gets rid of all the bullshit in the Google Search page.
 
 Before
 ---
